@@ -8,3 +8,10 @@ function initMap(){
         center: location
     });
 }
+
+
+$(document).ready(function(){
+    $("btn1").click(function(){
+        $(this).hide;
+    });
+});
